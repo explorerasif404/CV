@@ -18,8 +18,8 @@ section {
 }
 
 .container {
-    height: 778px;
-    width: 600px;
+    height: 48.6rem;
+    width: 650px;
     background-color: rgb(227, 234, 220);
     margin: auto;
 
@@ -48,7 +48,9 @@ section {
 }
 
 /* hero image end */
-
+.adrs{
+    margin-bottom: 10px;
+}
 /* link section start */
 .link {
     margin-top: 10px;
@@ -78,6 +80,10 @@ section {
     font-size: 20px;
 }
 
+.project p {
+    padding: 5px 0;
+}
+
 .project::after {
     content: "";
     display: block;
@@ -94,16 +100,17 @@ section {
 /* project section end */
 .design p {
     margin: 5px 0;
+    padding: 3px 0;
 }
 
 /* contain section start */
 .contain {
     height: 710px;
-    width: 360px;
+    width: 400px;
     background-color: #ffff;
     position: absolute;
     left: 13.5rem;
-    top: 2.5rem;
+    top: 2rem;
     /* padding: 0 10px; */
     text-align: left !important;
     font-size: 11px;
@@ -229,10 +236,12 @@ section {
 .education ul {
     margin-top: 10px;
 }
-.education ul li{
+
+.education ul li {
     color: rgb(93, 97, 103);
     font-size: 11px;
 }
+
 .education h3 {
     margin-bottom: 10px;
 }
